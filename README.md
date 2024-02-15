@@ -86,7 +86,7 @@ contingency planning.
 
 To run the script locally, you need to have Python 3.X.X installed, and you have to run the following command on Git Bash:
 ```shell
-git clone https://github.com/tsofia-git/Exercise-Varonis.git
+git clone [https://github.com/tsofia-git/Exercise-Varonis.git](https://github.com/tscohen-github/Exercise-Varonis.git)
 ```
 
 And the following installation commands on the Terminal: 
