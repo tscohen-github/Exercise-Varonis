@@ -1,5 +1,11 @@
+from pathlib import Path
 from github import Github
 import os
+from dotenv import load_dotenv
+
+ENV_PATH = os.path.join(Path(__file__).parent, ".env")
+
+load_dotenv(ENV_PATH)
 
 
 def is_private_repositories(token, repo_name):
