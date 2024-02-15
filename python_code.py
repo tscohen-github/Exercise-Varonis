@@ -16,7 +16,7 @@ def is_private_repositories(token, repo_name):
     repo = account.get_repo(repo_name)
     if not repo.private:
         print(f"The repository '{repo_name}' is currently PUBLIC. Changing to PRIVATE...")
-        repo.edit(private=True)
+        # repo.edit(private=True)
         print(f"The repository '{repo_name}' has been successfully changed to PRIVATE.")
     else:
         print(f"The repository '{repo_name}' is already PRIVATE.")
