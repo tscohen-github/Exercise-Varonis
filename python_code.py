@@ -8,7 +8,7 @@ ENV_PATH = os.path.join(Path(__file__).parent, ".env")
 load_dotenv(ENV_PATH)
 
 
-def is_private_repositories(token, repo_name):
+def is_private_repository(token, repo_name):
     if not token:
         print("Error: Personal Access Token not found. Please set VARNIS_ACCESS_TOKEN environment variable.")
         exit()
@@ -24,4 +24,4 @@ def is_private_repositories(token, repo_name):
 
 g_access_token = os.getenv('VARNIS_ACCESS_TOKEN')
 g_repo_name = os.getenv('REPO_NAME')
-is_private_repositories(g_access_token, g_repo_name)
+is_private_repository(g_access_token, g_repo_name)
