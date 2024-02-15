@@ -84,9 +84,9 @@ contingency planning.
 
 *python_code.py* script - The python_code.py script checks the status of the configuration of Private Repositories. If it is private, it will only print its status, and if it is public, it will change the repository to private and notify it, by setting the repository as private, it can be said that only authorized users can see and contribute to the repository.
 
-To run the script locally, you need to have Python 3.11.X installed, and you have to run the following command on Git Bash:
+To run the script locally, you need to have Python 3.X.X installed, and you have to run the following command on Git Bash:
 ```shell
-git clone https://github.com/tsofia-git/Exercise-Varonis-New.git
+git clone https://github.com/tsofia-git/Exercise-Varonis.git
 ```
 
 And the following installation commands on the Terminal: 
@@ -94,6 +94,8 @@ And the following installation commands on the Terminal:
 pip install PyGithub 
 pip install python-dotenv
 ```
+
+To have the possibility to run the script you must create your personal [access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token) and copy the access token to your .env file
 
 Then run the script: 
 ```shell
